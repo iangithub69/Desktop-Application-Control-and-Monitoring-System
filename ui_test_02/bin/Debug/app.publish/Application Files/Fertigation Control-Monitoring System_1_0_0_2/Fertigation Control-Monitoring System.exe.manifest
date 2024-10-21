@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Fertigation Control-Monitoring System.exe" version="1.0.0.2" publicKeyToken="7dba97698a56ca8a" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icons8-potted-plant-100.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Fertigation Control-Monitoring System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Fertigation Control-Monitoring System.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevComponents.DotNetBar2" version="14.0.0.3" publicKeyToken="7EB7C3A35B91DE04" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevComponents.Instrumentation" version="14.0.0.3" publicKeyToken="F90DC37C26666A67" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MySql.Data" version="6.9.9.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fertigation Control-Monitoring System.exe" size="650240">
+      <assemblyIdentity name="Fertigation Control-Monitoring System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7T243FGSqiz7brku2dhrKAPVmvrpAZ9EGtAtB3cGObw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2035080">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.4" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lS+lnT1tjIxfrYoRROXv/fD6ktWNsfsqKJn6+Exic6s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialSkin.dll" size="6742528">
+      <assemblyIdentity name="MaterialSkin" version="2.3.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iIX8Q3yLFML8vgT93Gr2qGtj7ZMXWw7hdtqaqT7I6T4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Fertigation Control-Monitoring System.exe.config" size="185">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ddqQePCgDwsgNYwK/IxZmbve507DGXQFHU78eyHXQjo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons8_plant_100_CXy_icon.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e0hqzfrVUqqUt+WC7S0Dm2n26LZFCrg8aZUVU55jRf0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons8-potted-plant-100.ico" size="194763">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z9I3W5IcUm3REj0jwgOro2ocsY4nL7EoTlYZrALsOGw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=IANPC\user" issuerKeyHash="31b397c130142c9611639289445eaf0cbb49deb9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2jD6PP/CcP+QIQtCdeaw44ib8ITIsCyPS8paTQYOaE0=</DigestValue></Reference></SignedInfo><SignatureValue>tjdqmTMopwg+Pzx7DYaidg80oOCcDZunphro+ukWO0Bg7zJluAKBODuAHymmzIezyRzft01IB6STP2k69JouU7/1VWV7BQZY5PMPyzrabhFoOvv1YBkIUAa8RqtHSE+jpdGxji3WFgG9H+6njTfpgCOavEtBAATzK+Hoz2Njmuc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vqJJoL/es9yPcQjh2EQa8a1pcfAsn6Pc2fe9G/b9sdlFxfso84QKCo9geIF7D2q/cAp0Znq073ejlvIG03ksAgvzERenU7Q77rTtRiEulMr9p6iRSd/VGbmYQNg6Rly6UwGM27LQEqguxIqimJ63Phbfx+kpichdcz/p5exuxLU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4d680e064d5aca4b8f2cb0c884f09b88e3b0e675420b2190ff70c2ff3cfa30da" Description="" Url=""><as:assemblyIdentity name="Fertigation Control-Monitoring System.exe" version="1.0.0.2" publicKeyToken="7dba97698a56ca8a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=IANPC\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VYFaRaPnLU7U983RbvA9xersZP2N10GUI6UyEWEc82I=</DigestValue></Reference></SignedInfo><SignatureValue>Z5uGQF2owYhnPC/bBoFMBYkcM0Y0OhSoAGF8i2FV8m3eST/nrjAXr3pJ4St+TJ7RYaIicRShRYaepOVJGuE4b21qgiMLp2JqvNvcAY3eKylNQNRi/vpCsk1wn348aMsB9/VA/WSDewBLua1184JmwDbGnqp48tAQyDVwO0x1yl8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vqJJoL/es9yPcQjh2EQa8a1pcfAsn6Pc2fe9G/b9sdlFxfso84QKCo9geIF7D2q/cAp0Znq073ejlvIG03ksAgvzERenU7Q77rTtRiEulMr9p6iRSd/VGbmYQNg6Rly6UwGM27LQEqguxIqimJ63Phbfx+kpichdcz/p5exuxLU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQQAOMs3s+yZNMHpoMgluY8TANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQASQBBAE4AUABDAFwAdQBzAGUAcjAeFw0yNDAxMTQxMzA2MzlaFw0yNTAxMTMxOTA2MzlaMB8xHTAbBgNVBAMeFABJAEEATgBQAEMAXAB1AHMAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+okmgv96z3I9xCOHYRBrxrWlx8Cyfo9zZ970b9v2x2UXF+yjzhAoKj2B4gXsPar9wCnRmerTvd6OW8gbTeSwCC/MRF6dTtDvutO1GIS6Uyv2nqJFJ39UZuZhA2DpGXLpTAYzbstASqC7EiqKYnrc+Ft/H6SmJyF1zP+nl7G7EtQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGw6lzR8zJA0KcLMwpqL0wyHo4hYmA96aCNt3B5a7TQ1/jXRLnmbZrqvnZ8ihVtoUXy2Wj7p+NOLrWqPxA4KZhBfSfICH59ibeFXbaIh8kQ0O6siem8um5zq9dPWhP8KbHgnYKthxewkbQdGHhR3EfqSIWq3CV0AkA5SCO1Xcdoo</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

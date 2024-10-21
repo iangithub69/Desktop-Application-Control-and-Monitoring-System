@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FertigationControl-MonitoringSystem
+</name>
+</assembly>
+<members>
+<member name="P:ui_test_02.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ui_test_02.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ui_test_02.My.Resources.Resources.icons8_plant_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ui_test_02.My.Resources.Resources.output_clockonlinegiftools">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ui_test_02.My.Resources.Resources.output_onlinegiftools">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ui_test_02.My.Resources.Resources.output_onlinegiftools121212">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ui_test_02.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
