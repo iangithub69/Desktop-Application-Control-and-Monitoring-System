@@ -154,6 +154,25 @@ Public Class Form1
     '    End If
     'End Sub
 
+    'Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    '    If SerialPort1.IsOpen Then
+    '        MessageBox.Show("Serial port is already open.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '        Return
+    '    End If
+
+    '    If ComboBox1.SelectedItem IsNot Nothing AndAlso Not String.IsNullOrWhiteSpace(ComboBox1.SelectedItem.ToString()) Then
+    '        SerialPort1.PortName = ComboBox1.Text
+    '        SerialPort1.Open()
+
+
+    '        Timer1.Enabled = True
+    '        Timer2.Enabled = True
+
+    '    Else
+    '        MessageBox.Show("Please select a valid port from the combobox.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '    End If
+    'End Sub
+
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If SerialPort1.IsOpen Then
